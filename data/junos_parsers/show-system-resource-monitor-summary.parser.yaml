@@ -4,7 +4,7 @@ parser:
     -
         type: multi-value
         method: xpath
-        xpath: //resource-monitor-summary-information-summary
+        xpath: //resource-monitor-summary-fpc-information-summary
         loop:
             key: ./fpc-slot
             sub-matches:
